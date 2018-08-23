@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo Nothing to do yet
+artifacts:
+  files:
+    - index.html
+    - error.html
+    - SFariaCertResume2018.pdf
+    - style.css
+    - img/*

@@ -4,7 +4,7 @@ import StringIO
 import mimetypes
 
 s3 = boto3.resource('s3')
-resume_bucket = s3.Bucket('seanfaria.com')
+resume_bucket = s3.Bucket('www.seanfaria.com')
 build_bucket = s3.Bucket('codebuild.seanfaria.com')
 
 
